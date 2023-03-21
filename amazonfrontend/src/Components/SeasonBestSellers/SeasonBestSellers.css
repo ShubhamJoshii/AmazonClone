@@ -1,0 +1,10 @@
+.productsImgBtnActive{
+    border: 1px solid #E77600;
+    box-shadow: 0px 0px 5px #E77600;
+}
+
+.productsImgBtn:hover{
+    border: 1px solid #E77600;
+    box-shadow: 0px 0px 5px #E77600;
+
+}

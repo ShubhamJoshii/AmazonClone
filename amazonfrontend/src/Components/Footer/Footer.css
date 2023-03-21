@@ -1,0 +1,7 @@
+#langFooterHover{
+    display: none;
+}
+
+.langFooter:hover #langFooterHover{
+    display: block;
+}

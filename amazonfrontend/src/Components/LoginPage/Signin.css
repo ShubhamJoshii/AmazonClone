@@ -1,0 +1,25 @@
+#errorEmail{
+    border-color: #DD0000;
+    box-shadow: 0px 0px 2.5px #DD0000 inset;
+}
+
+#EmailErrorText{
+    display: none;
+}
+
+#pageShowEmailPassword{
+    display: none;
+}
+
+.errorLogin{
+    border: 1px solid #C40000;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 4px #C40000 inset;
+    display: none;
+}

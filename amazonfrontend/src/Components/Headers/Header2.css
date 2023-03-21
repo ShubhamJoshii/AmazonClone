@@ -1,0 +1,7 @@
+.PrimeHeader{
+    display: none;
+}
+
+.PrimeHeaderHover:hover .PrimeHeader{
+    display: block;
+} 

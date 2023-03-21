@@ -1,0 +1,45 @@
+.Header{
+    background-color: #131921;
+    color: #ffff;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+    gap: 5px;
+    line-height: 17px;
+    justify-content: space-between;
+}
+
+.searchBarHeader input:focus{
+    outline: none;
+}
+
+input[type=radio]{
+    accent-color: #F08804;
+}
+
+
+
+.btnSignIn{
+    background: linear-gradient(#f9edcf,#eebb3a);
+    width:200px;
+    padding: 10px;
+    border: 1px solid #c09220;
+    border-radius: 5px;
+}
+
+#langRegionHover{
+    display: none;
+}
+
+.langRegion:hover #langRegionHover{
+    display: block;
+}
+
+.AccountHover{
+    display: none;
+}
+
+.AccountHeader:hover .AccountHover{
+    display: block;
+}

@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.scrollSellers::-webkit-scrollbar {
+    margin-top: 100px;
+    height: 5px;
+}
+  
+.scrollSellers::-webkit-scrollbar-track {
+    background: #ffffff; 
+  }
+   
+.scrollSellers::-webkit-scrollbar-thumb {
+    background: #9b9797b1; 
+  }
+  
+.scrollSellers::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.singinPageBtn:focus{
+  border: 1px solid #DA8022;
+  outline: #DA8022;
+  box-shadow: 0px 0px 10px #DA8022;
+}
+
+
+.signinPageCreateAccount{
+  border: 1px solid #A2A6AC;
+  background: linear-gradient(#FCFCFD,#E7E9EC);
+}
+
+.signinPageCreateAccount:hover{
+  background-color: rgba(0, 0, 0, 0.721);
+}
+
+@media only screen and (max-width: 1300px){
+  #Frontimg{
+    max-width: 1400px;
+  }
+
+  .Header{
+    width: 1400px;
+    position: absolute;
+  }
+  .searchBarHeader{
+    width: 45%;
+  }
+  .ServiceProducts, .Header2, .carts,.signin,.registerPage, .openProducts{
+    width: 1400px;
+  }
+  .header2Img{
+    left: 1043px;
+    overflow: visible;
+  }
+}
